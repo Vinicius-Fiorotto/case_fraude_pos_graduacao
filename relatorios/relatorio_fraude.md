@@ -139,4 +139,4 @@ A base cobre dois meses (março e abril de 2020), com taxas praticamente idênti
 | País (≥1.000) | BR 5,52% · AR 3,69% · US 3,08% · UY 0,98% |
 | Tempo | 2020-03: 5,04% · 2020-04: 4,96% (sem sazonalidade) |
 
-As queries que produzem cada número acima estão em [`sql/queries_analiticas.sql`](../sql/queries_analiticas.sql). Métrica de taxa = 100 × média de `fraude`.
+As queries que produzem cada número acima estão em [`queries/queries_analiticas.sql`](../queries/queries_analiticas.sql). Métrica de taxa = 100 × média de `fraude`.
