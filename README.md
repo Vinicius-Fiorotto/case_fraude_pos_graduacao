@@ -68,7 +68,7 @@ projeto-sql-fraude/
 ├── README.md                          ← você está aqui
 ├── orientacao_e_gabarito/
 │   └── orientacoes_do_case.docx       ← enunciado original do case
-├── sql/
+├── queries/
 │   ├── tabela_unificada_modelo.sql    ← ETL: constrói a abt_fraude
 │   └── queries_analiticas.sql         ← queries de todas as seções do relatório
 ├── relatorios/
@@ -125,9 +125,9 @@ Duas dimensões auxiliares (`dim_paises`, `dim_categorias`) enriquecem a anális
 
 ## Como reproduzir
 
-**Pré-requisitos:** acesso ao BigQuery (Console ou CLI `bq`) e as tabelas fonte listadas em [Dados](#dados) carregadas em um dataset do seu projeto. Ajuste `unipds-503513.projeto_fraude` nos scripts para o seu `projeto.dataset`.
+**Pré-requisitos:** acesso ao BigQuery (Console ou CLI `bq`) e as tabelas fonte listadas em [Dados](#dados) carregadas em um dataset do seu projeto. Ajuste `posgraduacao-unipds.capstone_fraude` nos scripts para o seu `projeto.dataset`.
 
-**Via BigQuery Console:** abra cada arquivo em [`sql/`](sql/) e cole no editor de queries, na ordem abaixo.
+**Via BigQuery Console:** abra cada arquivo em [`queries/`](queries/) e cole no editor de queries, na ordem abaixo.
 
 **Via CLI (`bq`):**
 
