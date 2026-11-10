@@ -117,7 +117,7 @@ Duas dimensões auxiliares (`dim_paises`, `dim_categorias`) enriquecem a anális
 
 ## Stack
 
-- **SQL / BigQuery (GoogleSQL)** — construção da ABT e todas as análises. `sql/queries_analiticas.sql` traz notas de portabilidade para PostgreSQL, MySQL, SQLite e SQL Server.
+- **SQL / BigQuery (GoogleSQL)** — construção da ABT e todas as análises. `queries/queries_analiticas.sql` traz notas de portabilidade para PostgreSQL, MySQL, SQLite e SQL Server.
 - **Markdown + PDF** — relatório versionado ao lado do código, garantindo reprodutibilidade.
 - **PowerPoint** — apresentação executiva dos insights.
 
